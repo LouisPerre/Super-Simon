@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #222;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    font-size: 0.95rem;
+}
+
+header {
+    display: block;
+    width: 45vw;
+    margin: auto;
+    border: white 4px solid;
+    border-radius: 15px;
+    margin-top: 4%;
+    padding: 2%;
+}
+
+main {
+    display: block;
+}
+
+.hud {
+    display: flex;
+}
+
+.subHudMod {
+    display: inline-block;
+    margin: 0.5vh 0.5vw;
+}
+
+.hudMiddle {
+    background-color: #fff;
+    width: 0.2vw;
+    min-width: 2px;
+    margin: 0 0.5vw;
+    border-radius: 12px;
+}
+
+.scoreBoard {
+    display: flex;
+    margin: auto 0;
+}
+
+.detail {
+    margin-bottom: 1.7rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.indicator {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.hudMiddleMod {
+    display: flex;
+}
+
+.hudMiddleMod p {
+    margin: 15px 0 25px 0;
+}
+
+.startGame {
+    width: 75px;
+    height: 45px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 12px;
+}
+
+.start {
+    display: flex;
+    margin: 2%;
+    margin: auto;
+}
+
+.startGame, .info {
+    cursor: pointer;
+}
+
+.game {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    margin-top: 4%;
+    padding: 2%;
+    border: white 4px solid;
+    border-radius: 15px;
+}
+
+.touches {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 4%;
+}
+
+.toucheSimon {
+    width: 15vw;
+    height: 35vh;
+    min-height: 250px;
+    border: white 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    color: #272727;
+    transition: 0.3s ease;
+}
+
+.infoContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fffffa;
+    padding: 1% 1.5%;
+    width: 33%;
+    border-radius: 12px;
+    overflow: auto;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.buttonClose {
+    position: absolute;
+    margin-left: 85.5%;
+    width: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+}
+
+.cursor {
+    cursor: pointer;
+}
